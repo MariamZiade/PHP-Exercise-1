@@ -1,33 +1,26 @@
-body {
-
-    background-color: royalblue;
-    color: brown;
-}
-
-.allpage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    color: blueviolet;
-
-}
 
 .input {
     margin-bottom: 10em;
     padding-bottom: 10em;
 }
 
+.registration {
 
+    color: brown;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: left;
+    align-items: center;
+    align-content: space-between;
+}
 
 .login {
     color: brown;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    align-content: space-around;
+    align-content: space-between;
 }

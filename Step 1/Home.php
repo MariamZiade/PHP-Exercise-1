@@ -4,16 +4,13 @@
 
     <meta charset="UTF-8">
     <title>Exercise 1</title>
-    <link rel="stylesheet" type="text/css" href="css.css" />
+    <link rel="stylesheet" type="text/css" href="Style.css" />
 
 </head>
 
 <body>
-    <form action="safe.php" method="post">
-
-        <div class="allpage">
-
-            <div class="hh">
+    
+    <form class="registration" action="safe.php" method="post">
 
                 <h1>Registration</h1>
 
@@ -50,8 +47,6 @@
                 <!-- <label> Date of Birth</label> -->
                 <input type="date" name="birthday">
 
-
-
                 <br />
 
                 <!-- <label>Social Security Number Username</label> -->
@@ -59,16 +54,13 @@
                 <br />
 
                 <input type="submit" value="Submit" />
-            </div>
+            
     </form>
 
+   
+        <form class="login" action="safe.php" method="post">
 
-    <form action="safe.php" method="post">
-
-
-        <div className=login>
             <h1> Log In</h1>
-
             <label> Username</label>
             <input type="text" name="LUsername" placeholder="name" required />
             <br />
@@ -77,10 +69,7 @@
             <br />
             <input type="submit" value="Submit" />
 
-        </div>
-
-    </form>
-
+        </form>
+        
 </body>
-
 </html>
