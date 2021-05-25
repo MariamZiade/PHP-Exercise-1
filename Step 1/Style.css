@@ -1,0 +1,33 @@
+body {
+
+    background-color: royalblue;
+    color: brown;
+}
+
+.allpage {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    color: blueviolet;
+
+}
+
+.input {
+    margin-bottom: 10em;
+    padding-bottom: 10em;
+}
+
+
+
+.login {
+    color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
