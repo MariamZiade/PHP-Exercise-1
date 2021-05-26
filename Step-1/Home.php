@@ -9,8 +9,9 @@
 </head>
 
 <body>
+<div class="container">
     
-    <form class="registration" action="safe.php" method="post">
+    <form action="safe.php" method="post">
 
                 <h1>Registration</h1>
 
@@ -56,6 +57,7 @@
                 <input type="submit" value="Submit" />
             
     </form>
+    
 
    
         <form class="login" action="safe.php" method="post">
@@ -70,6 +72,6 @@
             <input type="submit" value="Submit" />
 
         </form>
-        
+        </div>
 </body>
 </html>
